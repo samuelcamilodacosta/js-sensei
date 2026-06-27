@@ -210,20 +210,20 @@ This catalog indexes **119 modernization examples** distributed across js-sensei
 
 Examples grouped by topic. Run any file with Node ESM: `node examples/before-after/<file>.js`
 
-| Category | Files |
-| -------- | ----- |
-| Variables & scope | `optional-chaining.js`, `nullish-coalescing.js`, `var-loop-closure.js`, `swap-destructuring.js`, `avoid-global.js` |
-| Functions | `default-params.js`, `rest-params.js`, `named-predicate.js`, `currying-pricing.js` |
-| Objects | `destructuring-rest.js`, `destructuring-rename.js`, `object-has-own.js`, `object-spread-merge.js`, `computed-property.js`, `object-freeze-config.js`, `safe-merge.js` |
-| Arrays | `array-existence.js`, `find-vs-filter.js`, `flatmap-teams.js`, `includes-vs-indexof.js`, `immutable-sort.js`, `to-spliced.js`, `unique-set.js`, `group-by-category.js`, `chunk-array.js`, `every-validation.js` |
-| Strings | `replace-all.js`, `template-multiline.js`, `pad-start.js`, `trim-whitespace.js`, `starts-with.js`, `locale-compare-sort.js` |
-| Numbers | `parse-int-radix.js`, `number-is-nan.js`, `number-is-finite.js`, `intl-currency.js`, `clamp-helper.js` |
-| Async / promises | `async-parallel.js`, `parallel-await-loop.js`, `promise-all-settled.js`, `nested-then-chain.js`, `catch-rethrow.js`, `finally-cleanup.js`, `promise-with-resolvers.js` |
-| Errors | `error-cause.js`, `json-parse-guard.js`, `aggregate-error-batch.js` |
-| Modules | `fs-promises.js`, `import-meta-dirname.js`, `dynamic-import-heavy.js` |
-| Architecture / DI | `inject-config.js`, `inject-clock.js`, `early-return.js`, `else-after-return.js`, `handler-map.js`, `options-object.js` |
-| Performance / memory | `debounce-throttle.js`, `memoize-bounded.js`, `map-index-lookup.js`, `string-join-loop.js`, `structured-clone.js`, `regex-outside-loop.js`, `weakmap-metadata.js` |
-| Browser / security | `event-delegation.js`, `classlist-toggle.js`, `local-storage-prefs.js`, `csrf-token-fetch.js`, `fetch-response-ok.js` |
-| Clean code | `magic-number-constant.js`, `duplicate-email-validator.js` |
+| Category             | Files                                                                                                                                                                                                           |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Variables & scope    | `optional-chaining.js`, `nullish-coalescing.js`, `var-loop-closure.js`, `swap-destructuring.js`, `avoid-global.js`                                                                                              |
+| Functions            | `default-params.js`, `rest-params.js`, `named-predicate.js`, `currying-pricing.js`                                                                                                                              |
+| Objects              | `destructuring-rest.js`, `destructuring-rename.js`, `object-has-own.js`, `object-spread-merge.js`, `computed-property.js`, `object-freeze-config.js`, `safe-merge.js`                                           |
+| Arrays               | `array-existence.js`, `find-vs-filter.js`, `flatmap-teams.js`, `includes-vs-indexof.js`, `immutable-sort.js`, `to-spliced.js`, `unique-set.js`, `group-by-category.js`, `chunk-array.js`, `every-validation.js` |
+| Strings              | `replace-all.js`, `template-multiline.js`, `pad-start.js`, `trim-whitespace.js`, `starts-with.js`, `locale-compare-sort.js`                                                                                     |
+| Numbers              | `parse-int-radix.js`, `number-is-nan.js`, `number-is-finite.js`, `intl-currency.js`, `clamp-helper.js`                                                                                                          |
+| Async / promises     | `async-parallel.js`, `parallel-await-loop.js`, `promise-all-settled.js`, `nested-then-chain.js`, `catch-rethrow.js`, `finally-cleanup.js`, `promise-with-resolvers.js`                                          |
+| Errors               | `error-cause.js`, `json-parse-guard.js`, `aggregate-error-batch.js`                                                                                                                                             |
+| Modules              | `fs-promises.js`, `import-meta-dirname.js`, `dynamic-import-heavy.js`                                                                                                                                           |
+| Architecture / DI    | `inject-config.js`, `inject-clock.js`, `early-return.js`, `else-after-return.js`, `handler-map.js`, `options-object.js`                                                                                         |
+| Performance / memory | `debounce-throttle.js`, `memoize-bounded.js`, `map-index-lookup.js`, `string-join-loop.js`, `structured-clone.js`, `regex-outside-loop.js`, `weakmap-metadata.js`                                               |
+| Browser / security   | `event-delegation.js`, `classlist-toggle.js`, `local-storage-prefs.js`, `csrf-token-fetch.js`, `fetch-response-ok.js`                                                                                           |
+| Clean code           | `magic-number-constant.js`, `duplicate-email-validator.js`                                                                                                                                                      |
 
 See also `examples/good/` and `examples/bad/` for Bad / Better / Best pairs.
